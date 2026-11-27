@@ -1,0 +1,15 @@
+
+> template-foundation@0.1.0 dev
+> next dev --turbopack --hostname 0.0.0.0 --port 4173
+
+▲ Next.js 16.4.6 (Turbopack)
+- Local:         http://localhost:4173
+- Network:       http://0.0.0.0:4173
+✓ Ready in 277ms
+✓ Running next.config.ts took 22ms
+
+ GET / 200 in 402ms (next.js: 159ms, application-code: 243ms)
+ GET /api/posts 200 in 101ms (next.js: 62ms, application-code: 38ms)
+ GET /api/posts?page=2 200 in 5ms (next.js: 0.9ms, application-code: 4ms)
+ HEAD / 200 in 27ms (next.js: 0.9ms, application-code: 26ms)
+[?25h
